@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "ABCTestGrpcCocoapods"
-  s.version      = "1.1"
+  s.version      = "1.2"
   s.summary      = "ABCTestGrpcCocoapods."
   s.description  = <<-DESC 
                           1231313 是一个用于测试上传cocoapods的demo
@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "TracyIsADog" => "303912095@qq.com" }
   s.source       = { :git => "https://github.com/TracyIsADog/uplodeCocoapodsTest.git", :tag => "#{s.version}" }
-  s.source_files  = "ABCTestGrpcCocoapods/*.{h,m}"
-  #s.source_files  = "ABCTestGrpcCocoapods/*"
+  #s.source_files  = "ABCTestGrpcCocoapods/*.{h,m}"
+  s.source_files  = "ABCTestGrpcCocoapods"
 end

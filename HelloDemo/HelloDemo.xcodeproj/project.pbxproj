@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		848D557220075BBC00880D5A /* TestCocoapodsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 848D557120075BBC00880D5A /* TestCocoapodsView.m */; };
 		84BE0D032006030200D75967 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE0D022006030200D75967 /* AppDelegate.m */; };
 		84BE0D062006030200D75967 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE0D052006030200D75967 /* ViewController.m */; };
 		84BE0D092006030200D75967 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BE0D072006030200D75967 /* Main.storyboard */; };
@@ -15,7 +16,6 @@
 		84BE0D112006030200D75967 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE0D102006030200D75967 /* main.m */; };
 		84BE0D1B2006030300D75967 /* HelloDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE0D1A2006030300D75967 /* HelloDemoTests.m */; };
 		84BE0D262006030300D75967 /* HelloDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE0D252006030300D75967 /* HelloDemoUITests.m */; };
-		84C97F26200738B300567D7A /* ABCTestGrpcCocoapodsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C97F25200738B300567D7A /* ABCTestGrpcCocoapodsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		848D557020075BBC00880D5A /* TestCocoapodsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCocoapodsView.h; sourceTree = "<group>"; };
+		848D557120075BBC00880D5A /* TestCocoapodsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCocoapodsView.m; sourceTree = "<group>"; };
 		84BE0CFE2006030200D75967 /* HelloDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BE0D012006030200D75967 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84BE0D022006030200D75967 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -52,8 +54,6 @@
 		84BE0D212006030300D75967 /* HelloDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BE0D252006030300D75967 /* HelloDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloDemoUITests.m; sourceTree = "<group>"; };
 		84BE0D272006030300D75967 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84C97F24200738B300567D7A /* ABCTestGrpcCocoapodsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABCTestGrpcCocoapodsViewController.h; sourceTree = "<group>"; };
-		84C97F25200738B300567D7A /* ABCTestGrpcCocoapodsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABCTestGrpcCocoapodsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,8 +139,8 @@
 		84C97F23200738B300567D7A /* ABCTestGrpcCocoapods */ = {
 			isa = PBXGroup;
 			children = (
-				84C97F24200738B300567D7A /* ABCTestGrpcCocoapodsViewController.h */,
-				84C97F25200738B300567D7A /* ABCTestGrpcCocoapodsViewController.m */,
+				848D557020075BBC00880D5A /* TestCocoapodsView.h */,
+				848D557120075BBC00880D5A /* TestCocoapodsView.m */,
 			);
 			name = ABCTestGrpcCocoapods;
 			path = ../../ABCTestGrpcCocoapods;
@@ -279,10 +279,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848D557220075BBC00880D5A /* TestCocoapodsView.m in Sources */,
 				84BE0D062006030200D75967 /* ViewController.m in Sources */,
 				84BE0D112006030200D75967 /* main.m in Sources */,
 				84BE0D032006030200D75967 /* AppDelegate.m in Sources */,
-				84C97F26200738B300567D7A /* ABCTestGrpcCocoapodsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
