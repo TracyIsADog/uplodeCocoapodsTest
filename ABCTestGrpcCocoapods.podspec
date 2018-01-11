@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "ABCTestGrpcCocoapods"
-  s.version      = "1.2"
+  s.version      = "1.3"
   s.summary      = "ABCTestGrpcCocoapods."
   s.description  = <<-DESC 
                           1231313 是一个用于测试上传cocoapods的demo

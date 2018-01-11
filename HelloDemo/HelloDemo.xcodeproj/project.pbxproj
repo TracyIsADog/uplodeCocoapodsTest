@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		848D557220075BBC00880D5A /* TestCocoapodsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 848D557120075BBC00880D5A /* TestCocoapodsView.m */; };
+		848D557620075D4600880D5A /* TestCocoapodsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 848D557520075D4600880D5A /* TestCocoapodsView.m */; };
 		84BE0D032006030200D75967 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE0D022006030200D75967 /* AppDelegate.m */; };
 		84BE0D062006030200D75967 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE0D052006030200D75967 /* ViewController.m */; };
 		84BE0D092006030200D75967 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BE0D072006030200D75967 /* Main.storyboard */; };
@@ -36,8 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		848D557020075BBC00880D5A /* TestCocoapodsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCocoapodsView.h; sourceTree = "<group>"; };
-		848D557120075BBC00880D5A /* TestCocoapodsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCocoapodsView.m; sourceTree = "<group>"; };
+		848D557420075D4600880D5A /* TestCocoapodsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCocoapodsView.h; sourceTree = "<group>"; };
+		848D557520075D4600880D5A /* TestCocoapodsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCocoapodsView.m; sourceTree = "<group>"; };
 		84BE0CFE2006030200D75967 /* HelloDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BE0D012006030200D75967 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84BE0D022006030200D75967 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -81,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		848D557320075D4600880D5A /* ABCTestGrpcCocoapods */ = {
+			isa = PBXGroup;
+			children = (
+				848D557420075D4600880D5A /* TestCocoapodsView.h */,
+				848D557520075D4600880D5A /* TestCocoapodsView.m */,
+			);
+			path = ABCTestGrpcCocoapods;
+			sourceTree = "<group>";
+		};
 		84BE0CF52006030200D75967 = {
 			isa = PBXGroup;
 			children = (
@@ -108,7 +117,7 @@
 				84BE0D022006030200D75967 /* AppDelegate.m */,
 				84BE0D042006030200D75967 /* ViewController.h */,
 				84BE0D052006030200D75967 /* ViewController.m */,
-				84C97F23200738B300567D7A /* ABCTestGrpcCocoapods */,
+				848D557320075D4600880D5A /* ABCTestGrpcCocoapods */,
 				84BE0D072006030200D75967 /* Main.storyboard */,
 				84BE0D0A2006030200D75967 /* Assets.xcassets */,
 				84BE0D0C2006030200D75967 /* LaunchScreen.storyboard */,
@@ -134,16 +143,6 @@
 				84BE0D272006030300D75967 /* Info.plist */,
 			);
 			path = HelloDemoUITests;
-			sourceTree = "<group>";
-		};
-		84C97F23200738B300567D7A /* ABCTestGrpcCocoapods */ = {
-			isa = PBXGroup;
-			children = (
-				848D557020075BBC00880D5A /* TestCocoapodsView.h */,
-				848D557120075BBC00880D5A /* TestCocoapodsView.m */,
-			);
-			name = ABCTestGrpcCocoapods;
-			path = ../../ABCTestGrpcCocoapods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,7 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				848D557220075BBC00880D5A /* TestCocoapodsView.m in Sources */,
+				848D557620075D4600880D5A /* TestCocoapodsView.m in Sources */,
 				84BE0D062006030200D75967 /* ViewController.m in Sources */,
 				84BE0D112006030200D75967 /* main.m in Sources */,
 				84BE0D032006030200D75967 /* AppDelegate.m in Sources */,
